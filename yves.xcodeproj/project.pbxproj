@@ -14,6 +14,7 @@
 		9FC65E2E2A5CD21A007D161A /* yvesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC65E2D2A5CD21A007D161A /* yvesTests.swift */; };
 		9FC65E382A5CD21A007D161A /* yvesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC65E372A5CD21A007D161A /* yvesUITests.swift */; };
 		9FC65E3A2A5CD21A007D161A /* yvesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC65E392A5CD21A007D161A /* yvesUITestsLaunchTests.swift */; };
+		9FC65E4B2A5CD548007D161A /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC65E4A2A5CD548007D161A /* Entity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9FC65E332A5CD21A007D161A /* yvesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yvesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC65E372A5CD21A007D161A /* yvesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yvesUITests.swift; sourceTree = "<group>"; };
 		9FC65E392A5CD21A007D161A /* yvesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yvesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FC65E4A2A5CD548007D161A /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9FC65E1B2A5CD219007D161A /* yves */ = {
 			isa = PBXGroup;
 			children = (
+				9FC65E462A5CD401007D161A /* Struct */,
 				9FC65E1C2A5CD219007D161A /* yvesApp.swift */,
 				9FC65E1E2A5CD219007D161A /* ContentView.swift */,
 				9FC65E202A5CD21A007D161A /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				9FC65E392A5CD21A007D161A /* yvesUITestsLaunchTests.swift */,
 			);
 			path = yvesUITests;
+			sourceTree = "<group>";
+		};
+		9FC65E462A5CD401007D161A /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				9FC65E4A2A5CD548007D161A /* Entity.swift */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC65E1F2A5CD219007D161A /* ContentView.swift in Sources */,
+				9FC65E4B2A5CD548007D161A /* Entity.swift in Sources */,
 				9FC65E1D2A5CD219007D161A /* yvesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
